@@ -5,7 +5,7 @@ import java.sql.DriverManager;
 import java.sql.SQLException;
 
 public class DatabaseConnection {
-    private static final String URL = "jdbc:sqlserver://localhost:1433;databaseName=Metaphorce1;integratedSecurity=true;";
+    private static final String URL = "jdbc:sqlserver:DESKTOP-FTG8CHO;databaseName=Metaphorce1;integratedSecurity=true;";
     private static final String DRIVER = "com.microsoft.sqlserver.jdbc.SQLServerDriver";
 
     static {
